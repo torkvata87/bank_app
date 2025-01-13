@@ -1,0 +1,55 @@
+@media (max-width: 1200px) {
+    .skeleton-accounts {
+        --offsets: 1;
+        --gap: 50px;
+    }
+
+    .skeleton-text-card {
+        margin-right: 20px;
+        width: 203px;
+    }
+
+    .skeleton-text-number {
+        margin-right: 20px;
+        width: 190px;
+    }
+
+    .skeleton-card-balance,
+    .skeleton-card-transfer {
+        width: 100%;
+    }
+
+    .container__top-accounts {
+        margin-bottom: 28px;
+    }
+
+    .skeleton-btn {
+        height: 45px;
+    }
+
+    .skeleton-text {
+        height: 35px;
+    }
+}
+
+@media (max-width: 933px) {
+    .skeleton-accounts {
+        --offsets: 0;
+        --gap: 30px;
+        row-gap: 30px;
+    }
+
+    .skeleton-detail {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 580px) {
+    .skeleton-text-number {
+        width: 200px;
+    }
+
+    .skeleton-top-card {
+        margin-bottom: 20px;
+    }
+}

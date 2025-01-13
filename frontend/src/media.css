@@ -1,0 +1,513 @@
+@media (max-width: 1432px) {
+    .form__block-left {
+        width: 100%;
+    }
+
+    .btn-exchange {
+        padding: 14px 16px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 33px 45px 33px 45px;
+    }
+
+    .container {
+        padding: 45px;
+    }
+
+    .container__accounts {
+        --gap: 50px;
+        --offsets: 1;
+    }
+
+    .nav__list {
+        gap: 20px;
+    }
+
+    .container__top-accounts {
+        margin-bottom: 40px;
+    }
+
+    .top__block-title {
+        gap: 20px;
+    }
+
+    .container__map {
+        padding: 45px;
+    }
+
+    .card-white-currency,
+    .card-blue-currency {
+        padding: 40px;
+    }
+
+    .container__currency-basic {
+        --gap: 30px;
+    }
+
+    .currency__left {
+        gap: 30px;
+    }
+
+    .currency__list {
+        gap: 16px;
+    }
+
+    .dropdown__btn-currency,
+    .dropdown__list-currency,
+    .currency-select__block,
+    .currency-select {
+        width: 100%;
+    }
+
+    .top__title-currency,
+    .top__title-map {
+        margin-bottom: 40px;
+    }
+
+    .top__title {
+        letter-spacing: 1px;
+    }
+
+    .container__currency {
+        padding: 45px;
+    }
+
+    .container__transfer-diagram {
+        --gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .card-blue-transfer,
+    .card-blue-diagram {
+        width: 100%;
+    }
+
+    .card-blue,
+    .card-white {
+        padding: 40px;
+    }
+
+    .table__th {
+        font-size: 18px;
+    }
+
+    .table__td {
+        padding: 16px 0;
+        font-size: 16px;
+    }
+
+    .table__th-from {
+        padding-left: 16px;
+    }
+
+    .table__td-from,
+    .table__th-to,
+    .table__td-to,
+    .table__th-amount,
+    .table__td-amount,
+    .table__th-date,
+    .table__td-date {
+        padding-left: 30px;
+    }
+
+    .balance__span-id {
+        font-size: 28px;
+    }
+
+    .container__balance {
+        margin-bottom: 30px;
+    }
+
+    .block-canvas-detail,
+    .block-canvas-detail-arrival {
+        width: calc(100% - 140px);
+    }
+
+    .list-ticks__item-median {
+        left: 40px;
+    }
+}
+
+@media (max-width: 933px) {
+    .header {
+        padding: 20px 25px 25px 25px;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .header__container {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nav__list {
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .header {
+        padding: 33px 40px 33px 40px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .top__title {
+        letter-spacing: 1px;
+    }
+
+    .top__title-map {
+        margin-bottom: 40px;
+    }
+
+    .container__accounts {
+        --gap: 30px;
+        row-gap: 30px;
+    }
+
+    .card__block-bottom {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card__block-transaction {
+        margin-right: 10px;
+    }
+
+    .logo {
+        display: block;
+        width: 70px;
+    }
+
+    .nav__link {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .top__title-currency {
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+    }
+
+    .dropdown__item {
+        padding: 4px 18px;
+    }
+
+    .dropdown__list {
+        padding: 10px 0;
+    }
+
+    .container__currency-basic {
+        --offsets: 0;
+        flex-wrap: wrap;
+    }
+
+    .form__exchange-inputs {
+        --offsets: 0;
+    }
+
+    .currency__left {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .form-exchange {
+        flex-wrap: nowrap;
+    }
+
+    .form__block-left {
+        width: 100%;
+    }
+
+    .form__block-left {
+        width: calc((152% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
+    }
+
+    .card__title-second {
+        margin-bottom: 18px;
+    }
+
+    .btn-exchange {
+        width: calc((47% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
+    }
+
+    .currency__span {
+        font-size: 18px;
+    }
+
+    .table-block {
+        overflow-x: auto;
+    }
+
+    .list-ticks__item,
+    .list-ticks__item-max {
+        font-size: 18px;
+    }
+
+    .list-ticks__item-median {
+        left: 8px;
+    }
+
+    .list-ticks-account,
+    .list-ticks-detail,
+    .list-ticks-detail-arrival {
+        padding: 3px 0 0 10px;
+    }
+
+    .block-canvas-detail,
+    .block-canvas-detail-arrival {
+        width: calc(100% - 80px);
+    }
+
+    .container__detail {
+        gap: 30px;
+    }
+
+    .card-blue, .card-white {
+        padding: 35px;
+    }
+}
+
+@media (max-width: 580px) {
+    .card-login {
+        position: static;
+        padding: 40px;
+    }
+
+    .form__block-input {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .form__label-login {
+        position: static;
+        width: fit-content;
+    }
+
+    .login__page {
+        margin-bottom: 20px;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .form__block-fields {
+        gap: 14px;
+    }
+
+    .form {
+        gap: 25px;
+    }
+
+    .header {
+        padding: 24px 20px 30px 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .container__top-accounts {
+        flex-wrap: wrap;
+    }
+
+    .header__container {
+        gap: 25px;
+    }
+
+    .top__btn {
+        margin: 0;
+    }
+
+    .nav__list {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .container__accounts {
+        --offsets: 0;
+        --gap: 30px;
+        row-gap: 30px;
+    }
+
+    .top__title-map {
+        margin-bottom: 20px;
+    }
+
+    .top__title {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .top__title-currency {
+        margin-bottom: 25px;
+    }
+
+    .container__top-accounts {
+        margin-bottom: 30px;
+    }
+
+    .dropdown__btn-currency {
+        width: 100%;
+    }
+
+    .dropdown__list {
+        padding: 7px 0;
+    }
+
+    .form-exchange {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 14px 20px;
+    }
+
+    .form__block-left {
+        gap: 19px;
+    }
+
+    .form__exchange-inputs {
+        flex-wrap: wrap;
+    }
+
+    .btn-exchange {
+        width: 100%;
+    }
+
+    .currency__span {
+        font-size: 16px;
+    }
+
+    .card-white-currency,
+    .card-blue-currency {
+        padding: 30px;
+    }
+
+    .currency__list {
+        gap: 14px;
+    }
+
+    .card__title-second {
+        font-size: 18px;
+    }
+
+    .dropdown__btn-currency {
+        font-size: 14px;
+    }
+
+    .container__top-viewing {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .form__input-viewing {
+        font-size: 14px;
+    }
+
+    .form__input {
+        padding: 10px 15px;
+    }
+
+    .top__title-viewing {
+        margin-right: 20px;
+    }
+
+    .balance__span-id {
+        font-size: 20px;
+    }
+
+    .container__balance {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .form__label-viewing {
+        position: static;
+        text-align: left;
+    }
+
+    .form-viewing {
+        gap: 15px;
+        padding-left: 0;
+    }
+
+    .form__block-input {
+        gap: 5px;
+    }
+
+    .card__title-second {
+        margin-bottom: 15px;
+    }
+
+    .table__th {
+        font-size: 16px;
+    }
+
+    .table__td {
+        font-size: 14px;
+    }
+
+    .table__th-date {
+        padding-left: 0;
+    }
+
+    .table__td-date {
+        padding-right: 20px;
+        padding-left: 0;
+    }
+
+    .list-ticks__item {
+        font-size: 16px;
+    }
+
+    .balance__span, .balance__span-number {
+        font-size: 18px;
+    }
+
+    .form__block-input-after::after, .dropdown__btn::after {
+        top: 46%;
+    }
+
+    .block-canvas-detail,
+    .block-canvas-detail-arrival,
+    .block-canvas-account {
+        overflow-x: auto;
+        width: calc(100% - 10px);
+    }
+
+    .card-blue-history {
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .login__page {
+        margin-bottom: 14px;
+        font-size: 20px;
+    }
+
+    .form__label-login {
+        font-size: 14px;
+    }
+
+    .form__input {
+        font-size: 14px;
+    }
+
+    .card-login {
+        padding: 30px;
+    }
+
+    .form {
+        gap: 20px;
+    }
+}
